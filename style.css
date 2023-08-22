@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #d9d9d9;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 90px;
+  background-color: white;
+}
+.navbar .heading{
+  margin-top: -60px;
+}
+
+.navbar img{
+  width: 80px;
+  height: 80px;
+  padding-left: 30px;
+}
+
+.navbar h3{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 60px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  color: #616161;
+}
+
+.title {
+  display: flex;
+  width: 1217px;
+  height: 60px;
+  align-items: center;
+  gap: 20%;
+  background-color: white;
+  margin: 30px 0 0 70px;
+  padding-left: 10px;
+  padding-top: 20px;
+  border: 2px solid rgb(132, 132, 132);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.title .tamil_text{
+  padding-right: 20px;
+}
+
+.btn{
+  height: 50px;
+  margin-left: 105px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #4baed7;
+  border: none;
+  border-bottom: 5px solid black;
+  border-radius: 25px;
+}
+
+.btn:hover{
+  background-color: #1f5bba;
+}
+
+.flex-container {
+  display: flex;
+  width: 1230px;
+  padding-left: 70px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.text-area1 {
+  flex: 1;
+  height: 100px;
+  font-size: 20px;
+  padding-left: 10px;
+  float: left;
+  resize: none;
+  outline: none;
+  border: none;
+  border-right: 2px solid rgb(132, 132, 132);
+  border-bottom: 2px solid rgb(132, 132, 132);
+  border-left: 2px solid rgb(132, 132, 132);
+  border-bottom-left-radius: 10px;
+}
+
+.text-area2 {
+  flex: 1;
+  height: 100px;
+  font-size: 20px;
+  padding-left: 10px;
+  float: right;
+  resize: none;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(132, 132, 132);
+  border-right: 2px solid rgb(132, 132, 132);
+  border-bottom-right-radius: 10px;
+}
+
+.text-area1::placeholder {
+  font-size: 24px;
+  padding-left: 5px;
+}
+
+.suggestion {
+}
+
+.suggestion-heading {
+  width: 1180px;
+  height: 50px;
+  margin: 100px 0 0 70px;
+  background-color: #fff;
+  padding-left: 50px;
+  border: 2px solid rgb(132, 132, 132);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.suggestion-heading h3 {
+  padding-top: 3px;
+}
+
+.dropdown {
+  margin-left: 70px;
+  height: 50px;
+}
+.text {
+  width: 1225px;
+  height: 80px;
+  border: none;
+  font-size: 20px;
+  margin-bottom: 60px;
+  border-right: 2px solid rgb(132, 132, 132);
+  border-bottom: 2px solid rgb(132, 132, 132);
+  border-left: 2px solid rgb(132, 132, 132);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.suggestion .suggestion-btn{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+
+footer {
+  height: 40px;
+  margin: 60px 0 5px 0;
+  padding-top: 20px;
+  background-color: #fff;
+  text-align: center;
+}

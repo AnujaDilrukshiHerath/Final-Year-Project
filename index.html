@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>TAMZHI Transliterator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div>
+        <img src="logo.png" alt="Website Logo">
+      </div>
+      <div class="heading">
+        <h3>Tamzhi</h3>
+      </div>
+    </nav>
+
+    <main>
+      <section class="input">
+        <form id="transliteration-form">
+          <div>
+            <div class="title">
+              <h3>Romanized Tamil Text</h3>
+              <button type="submit" class="btn">Transliterate</button>
+              <h3 class="tamil_text">Tamil Text</h3>
+            </div>
+          </div>
+          <div class="flex-container">
+            <textarea id="input-text" class="text-area1" placeholder="Type to Transliterate"></textarea>
+            <textarea id="output-text" class="text-area2" readonly></textarea>
+          </div>
+        </form>
+        <form id="suggestion-form">
+          <div class="suggestion">
+            <div class="suggestion-heading">
+              <h3>Suggestions</h3>
+            </div>
+            <div class="dropdown">
+              <textarea id="suggestion-input" class="text"></textarea>
+              <div class="dropdown-content">
+                <ul id="suggestion-list"></ul>
+              </div>
+            </div>
+            <div class="suggestion-btn">
+              <button type="submit" class="btn">Suggestions</button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>Design & Developed By Anuja Herath</footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
